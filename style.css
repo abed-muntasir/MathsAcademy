@@ -30,7 +30,7 @@ h1 a{
 	width: 400px;
 	height: 50px;
 	padding: 20px 20px 0 20px;
-	margin-top: 40px;
+	margin-top: 15px;
 }
 
 .text{
@@ -93,4 +93,22 @@ ul {
 	font-size: 20px;
 	font-weight: bold;
 	color: #B314DB;
+}
+
+#introduction{
+	background: linear-gradient(#E5F2BB, #B7E952);
+	padding: 30px;
+	margin: 16px 0;
+}
+
+introduction h3{
+	font-size: 45px;
+	color: #316901;
+	font-weight: normal;
+}
+
+#introduction p{
+	font-size: 25px;
+	color: #628F19;
+	text-align: justify;
 }
