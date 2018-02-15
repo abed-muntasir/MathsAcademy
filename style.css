@@ -1,5 +1,5 @@
 body {
-	font-family: sans-serif;
+	font-family: Arial, Helvetica, sans-serif;
 }
 
 #container {
@@ -25,7 +25,10 @@ h1 a{
 
 #searchBox{
 	float: right;
-	background: linear-gradient(#E4F2B9, #B7E953);
+	background: linear-gradient(#E4F2B9, #B7E953);background: linear-gradient(#E4F2B9, #B7E953);
+	background: -webkit-linear-gradient(#E4F2B9, #B7E953);
+	background: -o-linear-gradient(#E4F2B9, #B7E953);
+	background: -moz-linear-gradient(#E4F2B9, #B7E953);
 	width: 400px;
 	height: 50px;
 	padding: 20px 20px 0 20px;
@@ -39,6 +42,7 @@ h1 a{
 	font-size: 15px;
 	color: #E36A0C;
 	background: white url(images/search.png) right center no-repeat;
+	border: 1px solid #C8D03E;
 }
 
 .submit{
@@ -51,12 +55,16 @@ h1 a{
 }
 
 .clear{
-	clear: both;	
+	clear: both;
+	margin-top	
 }
 
 #menu{
 	height: 70px;
-	background: linear-gradient(#F8F594, #D5D533); 
+	background: linear-gradient(#F8F594, #D5D533);
+	background: -webkit-linear-gradient(#F8F594, #D5D533);
+	background: -o-linear-gradient(#F8F594, #D5D533);
+	background: -moz-linear-gradient(#F8F594, #D5D533); 
 	padding: 7px 0;
 }
 ul {
@@ -96,6 +104,9 @@ ul {
 
 #introduction{
 	background: linear-gradient(#E5F2BB, #B7E952);
+	background: -webkit-linear-gradient(#E5F2BB, #B7E952);
+	background: -o-linear-gradient(#E5F2BB, #B7E952);
+	background: -moz-linear-gradient(#E5F2BB, #B7E952);
 	padding: 30px;
 	margin: 16px 0;
 }
@@ -113,7 +124,7 @@ introduction h3{
 }
 
 .sidebar{
-	height: 500px;
+	height: 550px;
 	width: 450px;
 	border: 1px solid #BAF46F;
 	border-radius: 20px;
@@ -132,14 +143,19 @@ introduction h3{
 	color: #5d12e7;
 }
 
-#leftsidebar ul{
+.sidebar ul{
 	padding-top: 8px;
 }
 
 #leftsidebar ul li{
-	padding-bottom: 6px;
-	padding-left: 10px;
+	padding: 4px 0 6px 10px;
 	list-style-image: url(images/arrow.png);
+}
+
+#rightsidebar ul li{
+	padding: 6px 0 6px 10px;
+	padding: 17px 0 17px 70px;
+	background: url(images/tick.png) no-repeat;
 }
 
 .sidebar ul li a:hover{
@@ -160,4 +176,14 @@ introduction h3{
 
 #rightsidebar{
 	float: right;
+}
+
+.footer{
+	height: 60px;
+	background: linear-gradient(#F6F390, #D5D533);
+	background: -webkit-linear-gradient(#F6F390, #D5D533);
+	background: -o-linear-gradient(#F6F390, #D5D533);
+	background: -moz-linear-gradient(#F6F390, #D5D533);
+	padding: 10px 30px;
+	margin-top: 20px;
 }
